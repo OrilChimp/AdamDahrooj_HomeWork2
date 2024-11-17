@@ -21,7 +21,7 @@ public:
     std::string getFriendsWithSameNameLength() const;
 
 private:
-    User _owner;  
-    Page _page;   
-    UserList _friends;  
+    User _owner;
+    Page _page;
+    UserList _friends;
 };

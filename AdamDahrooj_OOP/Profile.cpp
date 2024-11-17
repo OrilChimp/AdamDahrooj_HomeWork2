@@ -20,17 +20,17 @@ User Profile::getOwner() const
 
 void Profile::setStatus(const std::string& new_status)
 {
-    this->_page.setStatus(new_status); 
+    this->_page.setStatus(new_status);
 }
 
 void Profile::addPostToProfilePage(const std::string& post)
 {
-    this->_page.addLineToPosts(post); 
+    this->_page.addLineToPosts(post);
 }
 
 void Profile::addFriend(User friend_to_add)
 {
-    this->_friends.add(friend_to_add); 
+    this->_friends.add(friend_to_add);
 }
 
 std::string Profile::getPage() const

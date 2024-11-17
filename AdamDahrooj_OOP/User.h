@@ -19,5 +19,5 @@ private:
     unsigned int _id;
     std::string _username;
     unsigned int _age;
-    DevicesList _devices; 
+    DevicesList _devices;
 };

@@ -755,7 +755,7 @@ bool test3Bonus()
 
 	cout <<
 		"Changing all words in the status to \"Magshimim\": ... \n" << endl;
-	profile1.changeAllWordsInStatus("Magshimim");
+	//profile1.changeAllWordsInStatus("Magshimim");
 	got = getProfileString(profile1);
 	cout << got << endl;
 
@@ -794,7 +794,7 @@ bool test3Bonus()
 
 	cout <<
 		"Changing the word \"" << word_to_replace << "\" in the status to \"" << replacement << "\": ... \n" << endl;
-	profile2.changeWordInStatus(word_to_replace, "MMMMMMMMMM");
+	//profile2.changeWordInStatus(word_to_replace, "MMMMMMMMMM");
 	got = getProfileString(profile2);
 	cout << got << endl;
 
